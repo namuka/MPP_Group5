@@ -1,3 +1,4 @@
 In this case the relationship between Person and PersonWithJob classes is not suitable. 
 Because it violates the LSP principle.
 every person might not have job, week association(aggrigation).
+The problem violates the LSP as it returns true as the super class(person) compares the equality of a person object and personwithjob which have different value.
