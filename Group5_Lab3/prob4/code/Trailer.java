@@ -9,7 +9,7 @@ public class Trailer extends Property{
 	@Override
 	public String toString() {
 		String str = "";
-		str += "City: " + super.getCity() + ", Type: Trailer;" + "\n";
+		str += "City: " + super.getAddress().getCity() + ", Type: Trailer;" + "\n";
 		return str;
 	}
 }
