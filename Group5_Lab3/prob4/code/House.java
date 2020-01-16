@@ -15,7 +15,7 @@ public class House extends Property {
 	@Override
 	public String toString() {
 		String str = "";
-		str += "City: " + super.getCity() + ", Type: House; LotSize: " + lotSize + "\n";
+		str += "City: " + super.getAddress().getCity() + ", Type: House; LotSize: " + lotSize + "\n";
 		return str;
 	}
 }
