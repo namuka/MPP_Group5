@@ -15,7 +15,7 @@ public class Condo extends Property{
 	@Override
 	public String toString() {
 		String str = "";
-		str += "City: " + super.getCity() + ", Type: Condo; NumFloors: " + numFloors + "\n";
+		str += "City: " + super.getAddress().getCity() + ", Type: Condo; NumFloors: " + numFloors + "\n";
 		return str;
 	}
 }
