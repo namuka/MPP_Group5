@@ -6,14 +6,8 @@ public class Address {
 	private String state;
 	private String zip;
 	
-	public Address(String s, String c, String st, String z) {
-		this.street = s;
-		this.city = c;
-		this.state = st;
-		this.zip = z;
-	}
-	public Address(String c) {
-		this.city = c;
+	Address() {
+		
 	}
 	
 	public String getStreet() {
@@ -48,7 +42,6 @@ public class Address {
 		this.zip = zip;
 	}
 
-	//public String getAddress() {
 	@Override 
 	public String toString(){
 		String fullAddress = "";
