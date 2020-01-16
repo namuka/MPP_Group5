@@ -13,12 +13,12 @@ public class Driver {
 		System.out.println(totalRent);
 		
 		Property[] properties2 = { new House(9000), new Condo(2), new Trailer(),new House(7000), new Condo(5), new Trailer() };
-		properties2[0].createAddress("Fairfield");
-		properties2[1].createAddress("Fairfield");
-		properties2[2].createAddress("Fairfield");
-		properties2[3].createAddress("Fairfield");
-		properties2[4].createAddress("Chicago");
-		properties2[5].createAddress("Chicago");
+		properties2[0].getAddress().setCity("Fairfield");
+		properties2[1].getAddress().setCity("Fairfield");
+		properties2[2].getAddress().setCity("Fairfield");
+		properties2[3].getAddress().setCity("Fairfield");
+		properties2[4].getAddress().setCity("Chicago");
+		properties2[5].getAddress().setCity("Chicago");
 		List<Property> list = Admin.getProperties(properties2, "Fairfield");
 		System.out.println("Properties in Fairfield city");
 		System.out.println(list);
