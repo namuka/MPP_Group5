@@ -2,8 +2,8 @@ package prob2;
 
 final public class Triangle implements Figure {
 
-	private double base;
-	private double height;
+	private final double base;
+	private final double height;
 	
 	public Triangle(double base, double height) {
 		// TODO Auto-generated constructor stub
