@@ -2,8 +2,8 @@ package prob2;
 
 final public class Rectangle implements Figure {
 	
-	private double width;
-	private double height;
+	private final double width;
+	private final double height;
 	
 	public Rectangle(double w, double h) {
 		// TODO Auto-generated constructor stub
