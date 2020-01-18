@@ -2,7 +2,7 @@ package prob2;
 
 final public class Circle implements Figure {
 	
-	private double radius;
+	private final double radius;
 	
 	public Circle(double r) {
 		// TODO Auto-generated constructor stub
